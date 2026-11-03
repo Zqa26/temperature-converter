@@ -1,33 +1,34 @@
-# temperature_converter
-A program designed to convert temperature between Fahrenheit and Celsius based on user input. 
+# Temperature Converter
 
-# features
-- [List what the program does, e.g., converts Celsius to Fahrenheit]
-- Allows user to choose the conversion type (Celsius -> Fahrenheit), (Fahrenheit -> Celsius)
-- Grabs user input and outputs the correct temperature following the conversion type
+A Python program that converts temperatures between Celsius and Fahrenheit based on user input.
 
-# HOW TO RUN
+## Features
+- Lets the user choose a conversion type: Celsius to Fahrenheit or Fahrenheit to Celsius
+- Accepts a temperature from the user and displays the converted result
+- Prints a warning for very hot or very cold temperatures
 
 ## Requirements
-- Python 3 (download from python.org)
-  - On Windows, check "Add Python to PATH" during installation.
+- Python 3 (download from [python.org](https://www.python.org))
+- On Windows, check **Add Python to PATH** during installation.
 
-### steps
-1. Download the project. Click the green *Code* button above and choose *Download ZIP*, then unzip the folder.
+## How to Run
+
+1. Click the green **Code** button above and choose **Download ZIP**, then unzip the folder.
 2. Open the folder and make sure `temperature_converter.py` is inside it.
 3. Open a terminal in that folder:
-   - For Windows,  click the address bar in File Explorer, type `powershell`, and press Enter.
-   - For Mac, Open your terminal and use `cd` to move into the folder.
-4. run the program:
-   - For Windows: `py temperature_converter.py`
-   - For Mac:  `python3 temperature_converter.py`
+   - **Windows:** Click the address bar in File Explorer, type `powershell`, and press Enter.
+   - **Mac:** Open Terminal and use `cd` to move into the folder.
+4. Run the program:
+   - **Windows:** `py temperature_converter.py`
+   - **Mac:** `python3 temperature_converter.py`
 5. Follow the prompts. Type a value and press Enter.
-### example
-First enter a 1 or 2 to choose the conversion type you would like to use. Second, enter the temperature # and smile in satisfaction. 
+
+### Example
+1. Enter `1` or `2` to choose the conversion type.
+2. Enter the temperature you want to convert.
 
 ## What I Learned
-In this program I learned what an "if-statement" is and how it can be implemented.
-I also learned how to grab user input from a "float" input statement. 
+In this program I learned how to use an `if` statement and how to read user input with `float(input())`.
 
-# Course
-Built for Computer Programming I | Messiah University
+## Course
+Built for Computer Programming I, Messiah University
