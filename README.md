@@ -28,7 +28,10 @@ A Python program that converts temperatures between Celsius and Fahrenheit based
 2. Enter the temperature you want to convert.
 
 ## What I Learned
-In this program I learned how to use an `if` statement and how to read user input with `float(input())`.
+- 'float' converts that string into a decimal number, so the program can do math with the temperature.
+- Multiway decisions:  `if`, `elif`, and `else` form a decision structure. This program checks the user's choice in order and runs only the matching branch. Each branch works like a branch of a tree (decision tree)
+- Separate checks: Additional `if` statements at the end run on their own. They print a warning when the temperature is very hot or very cold.
+- Handling invalid input: When the user enters something other than `1` or `2`, the `else` branch prints an error message. The `return` statement then ends the function so the program doesn't try to use a temperature that wan't entered
 
 ## Course
 Built for Computer Programming I, Messiah University
